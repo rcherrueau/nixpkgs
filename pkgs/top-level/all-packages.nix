@@ -12313,6 +12313,8 @@ with pkgs;
     inherit (gnome2) libsoup;
   };
 
+  tlaplus-tools = callPackage ../development/libraries/java/tlaplus-tools { };
+
 
   ### DEVELOPMENT / LIBRARIES / JAVASCRIPT
 
